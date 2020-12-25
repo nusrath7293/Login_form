@@ -1,0 +1,99 @@
+<html>
+<head>
+<style>
+{
+	margin:0;
+	padding:0;
+}
+	  form{
+		background-color:cyan;
+		width:400px;
+		height:600px;
+		margin:auto;
+		margin-top:30px;
+
+	}
+	
+	h2{
+		color:blue;
+		text-align:center;
+	}
+	
+	.input-box{
+		margin-left:60px;
+	}
+	input{
+		border-color: blue;
+		height:35px;
+		width:270px;
+		margin-bottom:2px;
+		border-radius:5px;
+		
+	}
+	textarea{
+		height:100px;
+		width:270px;
+		border-radius:5px;
+		border-color: blue;
+	}
+	.submitbtn{
+		height:30px;
+		width:80px;
+		float:right;
+		border-radius: 5px;
+		margin:60px 70px 40px 0px;
+	}
+	img{
+		height: 100px;
+		width: 100px;
+        border-radius:100%;
+		margin-left:40%;
+		margin-top:-30px;
+	}
+    .select{
+    	height:35px;
+		width:270px;
+		background-color: white;
+		margin-left: 50px;
+    }
+</style>
+</head>
+<body>
+<form>
+<img src="unnamed.png">
+<hr>
+<h2>Registration Form </h2>
+<div class="input-box">
+<input type="text" name="first-name" placeholder="First Name"><br>
+<input type="text" name="last-name" placeholder="Last Name"><br>
+<input type="email" name="email" placeholder="Email Adress"><br>
+<textarea placeholder="message"></textarea><br>
+</div>
+<div class="select">
+	<h2>Date of birth</h2>
+    <select name="Day">
+      <option value="Day">Day</option>
+	  <option value="Sat">Saturday</option>
+	  <option value="Sun">Sunday</option>
+	  <option value="Mon">Monday</option>
+	  <option value="Tues">Tuesday</option>
+	</select>
+	<select name="Month">
+	  <option value="Month">Month</option>
+	  <option value="January">January</option>
+	  <option value="February">February</option>
+	  <option value="March">March</option>
+	  <option value="April">April</option>
+	</select>
+	<select name="Year">
+	  <option value="Year">Year</option>	
+	  <option value="2010">2010</option>
+	  <option value="2015">2015</option>
+	  <option value="2020">2020</option>
+	  <option value="2025">2025</option>
+	</select>
+</div>
+  <input class="submitbtn" type="button" name="submit" value="submit">
+</form>
+</body>
+</html>
